@@ -1,0 +1,9 @@
+.strong-note {
+    background: #e1e1e1;
+    padding: 10px 15px;
+    display: inline-block;
+}
+
+.hide {
+    display: none;
+}

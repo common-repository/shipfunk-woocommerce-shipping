@@ -1,0 +1,441 @@
+# Translation of Plugins - Shipfunk WooCommerce Shipping - Development (trunk) in Swedish
+# This file is distributed under the same license as the Plugins - Shipfunk WooCommerce Shipping - Development (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2018-04-10 14:47+0300\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 2.0.6\n"
+"Language: sv_SE\n"
+"Project-Id-Version: Plugins - Shipfunk WooCommerce Shipping - Development (trunk)\n"
+"POT-Creation-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+
+#: includes/settings-shipfunk.php:90
+msgid "Show shipping time estimate on shipping label, e.g. Postipaketti (Posti) - 1-3 days. It is possible to increase shipping time estimate by increasing your warehouse lead time on Shipfunk Extranet."
+msgstr ""
+
+#: includes/settings-shipfunk.php:88 includes/settings-shipfunk.php:89
+msgid "Show shipping time estimate"
+msgstr ""
+
+#: shipping-shipfunk.php:730
+msgid "Set order visible on Shipfunk"
+msgstr ""
+
+#: shipping-shipfunk.php:74
+msgid "Klarna Checkout plugin conflicts with Shipfunk plugin, if different shipping addres option is enabled. Please disable this option from Klarna Checkout settings."
+msgstr ""
+
+#: shipping-shipfunk.php:713 shipping-shipfunk.php:715
+msgid "Tracking code"
+msgstr ""
+
+#: shipping-shipfunk.php:483 shipping-shipfunk.php:493
+msgid "No package cards."
+msgstr "Inga paketkort."
+
+#: shipping-shipfunk.php:422
+msgid "Waiting for the order status to be set to \"Processing\". The order is not visible on Shipfunk Extranet and the package cards are not yet available."
+msgstr ""
+
+#: includes/settings-shipfunk.php:101
+msgid "Enabling this you need to enter parcel information manually to get package cards and tracking codes for your orders.<br><strong>Keeping this unchecked enables automatic parcel calculation</strong> and thus makes shipment option results more refined and package card and tracking code generation easier. <p class=%s><strong>Note! If you are using automatic parcel calculation remember to configure the following box settings.</strong></p>"
+msgstr ""
+
+#: includes/settings-shipfunk.php:29
+msgid "Shipfunk API test secret key found from <a target=%2$s href=%1$s>Extranet</a> -> Account -> API keys."
+msgstr ""
+
+#: includes/class-wc-shipping-shipfunk.php:48
+msgid "<p class=%5$s><strong>Plugin usage requires Shipfunk account. <a target=%1$s href=%2$s>Register here for free.</a></strong> Visit <a target=%1$s href=%3$s>Shipfunk Docs</a> for getting started with our service.</strong></p><p>The Shipfunk extension obtains delivery options of various carriers dynamically from the Shipfunk API during checkout and also provides package cards and tracking codes from the API. You can manage your delivery options settings on the Shipfunk <a target=%1$s href=%4$s>Extranet</a>.</p>"
+msgstr ""
+
+#: includes/class-wc-shipfunk-api.php:88
+msgid "Postal code is invalid."
+msgstr "Postnummer är ogiltigt."
+
+#: shipping-shipfunk.php:503
+msgid "Package cards and tracking codes not retrieved."
+msgstr "Paketkort och spårningskoder hämtades inte."
+
+#: shipping-shipfunk.php:461
+msgid "No package cards or tracking codes - add parcel data."
+msgstr "Inga paketkort eller spårningskoder &ndash; lägg till paketdata."
+
+#: shipping-shipfunk.php:452
+msgid "There was an error deleting parcels. API responded an error: "
+msgstr "Ett fel uppstod vid radering av paket. API gav ett felmeddelande"
+
+#: shipping-shipfunk.php:446
+msgid "There was an error updating parcels. API responded an error: "
+msgstr "Ett fel uppstod vid uppdatering av paket. API gav ett felmeddelande"
+
+#: shipping-shipfunk.php:440
+msgid "Selected shipping method is a store pickup - shipping does not require package cards or tracking codes."
+msgstr "Det valda leveranssättet är butiksavhämtning &ndash; leverans kräver inga paketkort eller spårningskoder."
+
+#: shipping-shipfunk.php:431
+msgid "There was an error informing Shipfunk the order status. Refresh this page to make the API call again."
+msgstr ""
+
+#: shipping-shipfunk.php:413
+msgid "There was an error informing Shipfunk the selected shipping method. Refresh this page to make the API call again."
+msgstr ""
+
+#: shipping-shipfunk.php:390
+msgid "The chosen shipping method is not Shipfunk's. No parcel settings, package cards or tracking codes available."
+msgstr ""
+
+#: includes/settings-shipfunk.php:64
+msgid "If product does not have dimensions set then the default dimensions is used. Note: This can lead to unsuitable shipping option results and cause distortion on shipping prices. Thus it is highly recommended that every product has the correct dimensions set."
+msgstr ""
+
+#: includes/settings-shipfunk.php:64
+msgid "Format: length x height x width, e.g. 10x10x2, you can use decimals also."
+msgstr "Format: längd x höjd x bredd, t.ex. 10x10x2, du kan även använda decimaler."
+
+#: includes/settings-shipfunk.php:63
+msgid "e.g. "
+msgstr "t.ex"
+
+#: includes/settings-shipfunk.php:59
+msgid "Default Product Dimensions"
+msgstr "Standardproduktmått"
+
+#: includes/settings-shipfunk.php:56
+msgid "Weight parameter is a requisite to be able to calculate shipping rates. If product does not have weight set then the default weight is used. Note: This can lead to unsuitable shipping option results and cause distortion on shipping prices. Thus it is highly recommended that every product has the correct weight set."
+msgstr ""
+
+#: includes/settings-shipfunk.php:48
+msgid "All data goes to your test environment and no data is sent to logistic companies."
+msgstr "All data går till din testmiljö och ingen data skickas till logistikföretag."
+
+#: includes/settings-shipfunk.php:47
+msgid "Use test mode"
+msgstr "Använd testläge"
+
+#: includes/settings-shipfunk.php:46
+msgid "Use Test Mode"
+msgstr "Använd testläge"
+
+#: includes/settings-shipfunk.php:25
+msgid "API Test Key"
+msgstr "API-testnyckel"
+
+#: includes/settings-shipfunk.php:17
+msgid "Shipfunk API live secret key found from <a target=%2$s href=%1$s>Extranet</a> -> Account -> API keys. Note: Live key is not shown if you have not activated your account."
+msgstr ""
+
+#: includes/settings-shipfunk.php:15
+msgid "API Live Key"
+msgstr "API-livenyckel"
+
+#: includes/class-wc-shipping-shipfunk.php:265
+msgid "Shipfunk test mode is on. All data goes to your test environment and no data is sent to logistic companies."
+msgstr "Shipfunk testläge är på. All data går till din testmiljö och ingen data skickas till logistikföretag."
+
+#: includes/class-wc-shipfunk-api.php:85
+msgid "Email is invalid."
+msgstr "E-post är ogiltig."
+
+#: includes/class-wc-shipfunk-api.php:82
+msgid "Phonenumber is invalid."
+msgstr "Telefonnummer är ogiltigt."
+
+#: includes/class-wc-shipfunk-api.php:73 includes/class-wc-shipfunk-api.php:91
+msgid "There was a problem connecting to the shipping gateway. Refill your address."
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Shipfunk WooCommerce Shipping"
+msgstr "Shipfunk WooCommerce Shipping"
+
+#. Author URI of the plugin/theme
+msgid "http://www.shipfunk.com"
+msgstr "http://www.shipfunk.com"
+
+#. Author of the plugin/theme
+msgid "Shipfunk"
+msgstr "Shipfunk"
+
+#. Description of the plugin/theme
+msgid "Obtain delivery options, real time shipping rates and package cards via Shipfunk API."
+msgstr "Hämta leveransalternativ, priser i realtid för leveranser och paketkort via Shipfunk API."
+
+#. Plugin URI of the plugin/theme
+msgid "http://docs.shipfunk.com"
+msgstr "http://docs.shipfunk.com"
+
+#: woocommerce/cart/cart-shipping.php:78
+msgid "There are no shipping methods available. Please double check your address and contact details, or contact us if you need any help."
+msgstr "Det finns inga leveranssätt tillgängliga. Vänligen kontrollera din adress och dina kontaktuppgifter, eller kontakta oss om du behöver hjälp."
+
+#: woocommerce/cart/cart-shipping.php:76
+msgid "Shipping costs will be calculated once you have provided your address."
+msgstr "Fraktkostnader kommer att beräknas när du har angett din adress."
+
+#: woocommerce/cart/cart-shipping.php:51
+msgid "Other Shipping Methods"
+msgstr "Andra leveranssätt"
+
+#: shipping-shipfunk.php:699
+msgid "Package cards and tracking codes retrieved from Shipfunk."
+msgstr "Paketkort och spårningskoder hämtade från Shipfunk."
+
+#: shipping-shipfunk.php:663
+msgid "There was an error getting parcels."
+msgstr "Ett fel uppstod vid hämtning av paket."
+
+#: shipping-shipfunk.php:486 shipping-shipfunk.php:492
+msgid "For returning"
+msgstr "För retur"
+
+#: shipping-shipfunk.php:479 shipping-shipfunk.php:489
+msgid "Package card"
+msgstr "Paketkort"
+
+#: shipping-shipfunk.php:476 shipping-shipfunk.php:482
+msgid "For sending"
+msgstr "För sändning"
+
+#: shipping-shipfunk.php:464
+msgid "Package Cards and Tracking Codes"
+msgstr "Paketkort och spårningskoder"
+
+#: shipping-shipfunk.php:580
+msgid "Save order and update package cards and tracking codes"
+msgstr "Spara beställning och uppdatera paketkort och spårningskoder"
+
+#: shipping-shipfunk.php:580
+msgid "Save order and retrieve package cards and tracking codes"
+msgstr "Spara beställning och hämta paketkort och spårningskoder"
+
+#: shipping-shipfunk.php:521
+msgid "Edit parcels"
+msgstr "Redigera paket"
+
+#: shipping-shipfunk.php:514 shipping-shipfunk.php:574
+msgid "Remove selected parcels"
+msgstr "Radera markerade paket"
+
+#: shipping-shipfunk.php:513 shipping-shipfunk.php:573
+msgid "Add parcel"
+msgstr "Lägg till paket"
+
+#: shipping-shipfunk.php:508 shipping-shipfunk.php:519
+msgid "Parcel Data"
+msgstr "Paketdata"
+
+#: shipping-shipfunk.php:372
+msgid "Shipping Information - Shipfunk"
+msgstr "Leveransinformation &ndash; Shipfunk"
+
+#: shipping-shipfunk.php:360 shipping-shipfunk.php:560
+msgid "Weight"
+msgstr "Vikt"
+
+#: shipping-shipfunk.php:359 shipping-shipfunk.php:556
+msgid "depth x width x height"
+msgstr "djup x bredd x höjd"
+
+#: shipping-shipfunk.php:357 shipping-shipfunk.php:550
+msgid "Dimensions"
+msgstr "Mått"
+
+#: shipping-shipfunk.php:356 shipping-shipfunk.php:539
+#: shipping-shipfunk.php:546
+msgid "( Optional )"
+msgstr "(Valfritt)"
+
+#: shipping-shipfunk.php:355 shipping-shipfunk.php:543
+msgid "Value"
+msgstr "Värde"
+
+#: shipping-shipfunk.php:354 shipping-shipfunk.php:536
+msgid "Content"
+msgstr "Innehåll"
+
+#: shipping-shipfunk.php:353
+msgid "Must be unique to this order. Can not be changed afterwards."
+msgstr "Måste vara unik för denna beställning. Kan inte ändras senare."
+
+#: shipping-shipfunk.php:352
+msgid "Parcel Name"
+msgstr "Paketnamn"
+
+#: shipping-shipfunk.php:351 shipping-shipfunk.php:471
+#: shipping-shipfunk.php:530
+msgid "Parcel"
+msgstr "Paket"
+
+#: shipping-shipfunk.php:350
+msgid "New parcel"
+msgstr "Nytt paket"
+
+#: shipping-shipfunk.php:240 shipping-shipfunk.php:286
+msgid "Phone"
+msgstr "Telefonnummer"
+
+#: shipping-shipfunk.php:232 shipping-shipfunk.php:280
+msgid "Email address"
+msgstr "E-postadress"
+
+#: shipping-shipfunk.php:195
+msgid "Shipping Pickup Location"
+msgstr "Avhämtningsställe"
+
+#: includes/class-wc-shipping-shipfunk.php:541
+msgid "Pickups reloaded"
+msgstr "Avhämtningar omladdade"
+
+#: includes/class-wc-shipping-shipfunk.php:528
+msgid "Choose Pickup Location"
+msgstr "Välj avhämtningsställe"
+
+#: includes/class-wc-shipping-shipfunk.php:524
+msgid "No pickups found"
+msgstr "Inga avhämtningsställen hittades"
+
+#: includes/class-wc-shipping-shipfunk.php:523
+msgid "Reload pickups"
+msgstr "Ladda om avhämtningar"
+
+#: includes/class-wc-shipping-shipfunk.php:520
+msgid "Pickup Locations by Postcode"
+msgstr "Avhämtningsställe enligt postnummer"
+
+#: includes/class-wc-shipping-shipfunk.php:509 shipping-shipfunk.php:180
+msgid "Shipping Method Info"
+msgstr "Info om leveranssätt"
+
+#: includes/class-wc-shipping-shipfunk.php:459 shipping-shipfunk.php:435
+msgid "Informed Shipfunk the order has been placed."
+msgstr "Informerade Shipfunk att beställningen är lagd."
+
+#: includes/class-wc-shipping-shipfunk.php:408 shipping-shipfunk.php:417
+msgid "Informed Shipfunk the selected shipping option."
+msgstr "Informerade Shipfunk om valt leveransalternativ."
+
+#: includes/class-wc-shipping-shipfunk.php:329
+msgid "days"
+msgstr "dagar"
+
+#: includes/class-wc-shipping-shipfunk.php:327
+msgid "day"
+msgstr "dag"
+
+#: includes/class-wc-shipping-shipfunk.php:243
+msgid "Home delivery"
+msgstr "Hemleverans"
+
+#: includes/class-wc-shipping-shipfunk.php:238
+msgid "Address"
+msgstr "Adress"
+
+#: includes/class-wc-shipping-shipfunk.php:230 shipping-shipfunk.php:183
+msgid "Store pickup"
+msgstr "Butiksavhämtning"
+
+#: includes/class-wc-shipping-shipfunk.php:226
+msgid "Shipping Pickup Details"
+msgstr "Information om leveransavhämtning"
+
+#: includes/class-wc-shipping-shipfunk.php:174
+msgid "These box configurations are used by the Box Packer algorithm, which calculates cart products into the defined boxes ( = parcels). Products not fitting into boxes will be packed individually. This parcel data is used when we retrieve shipment options from Shipfunk. Parcel data ensures more refined delivery option results compared to a list of individual products. Automatic parcel creation also makes getting package cards and tracking codes more efficient."
+msgstr ""
+
+#: includes/class-wc-shipping-shipfunk.php:171
+msgid "Delete selected box(es)"
+msgstr "Radera markerade låda/lådor"
+
+#: includes/class-wc-shipping-shipfunk.php:170
+msgid "Add box"
+msgstr "Lägg till låda"
+
+#: includes/class-wc-shipping-shipfunk.php:122
+msgid "Max Weight"
+msgstr "Maxvikt"
+
+#: includes/class-wc-shipping-shipfunk.php:121
+msgid "Weight of Box"
+msgstr "Lådans vikt"
+
+#: includes/class-wc-shipping-shipfunk.php:120
+msgid "Inner Height"
+msgstr "Inre höjd"
+
+#: includes/class-wc-shipping-shipfunk.php:119
+msgid "Inner Width"
+msgstr "Inre bredd"
+
+#: includes/class-wc-shipping-shipfunk.php:118
+msgid "Inner Length"
+msgstr "Inre längd"
+
+#: includes/class-wc-shipping-shipfunk.php:117
+msgid "Height"
+msgstr "Höjd"
+
+#: includes/class-wc-shipping-shipfunk.php:116
+msgid "Width"
+msgstr "Bredd"
+
+#: includes/class-wc-shipping-shipfunk.php:115
+msgid "Length"
+msgstr "Längd"
+
+#: includes/class-wc-shipping-shipfunk.php:114
+msgid "Name"
+msgstr "Namn"
+
+#: includes/class-wc-shipping-shipfunk.php:106
+msgid "Box settings"
+msgstr "Lådinställningar"
+
+#: includes/settings-shipfunk.php:96
+msgid "Manually enter parcel dimensions, weight etc to get package cards"
+msgstr "Fyll i paketets mått manuellt, vikt o.s.v. för att få paketkort"
+
+#: includes/settings-shipfunk.php:95
+msgid "Manual Parcel Data"
+msgstr "Manuell paketdata"
+
+#: includes/settings-shipfunk.php:78 includes/settings-shipfunk.php:85
+msgid "You can configure shipping method categories on Shipfunk Extranet settings."
+msgstr "Du kan konfigurera kategorier för leveranssätt i Shipfunks Extranet-inställningar."
+
+#: includes/settings-shipfunk.php:75 includes/settings-shipfunk.php:82
+msgid "Override Woocommerce shipping template and use shipping method categories"
+msgstr "Åsidosätt WooCommerce leveransmall och använd kategorier för leveranssätt"
+
+#: includes/settings-shipfunk.php:74 includes/settings-shipfunk.php:81
+msgid "Use Categories"
+msgstr "Använd kategorier"
+
+#: includes/settings-shipfunk.php:71
+msgid "Shipping methods will be shown from lowest to highest price."
+msgstr "Leveranssätt kommer visas från lägsta till högsta pris."
+
+#: includes/settings-shipfunk.php:68
+msgid "Sort shipping methods by price"
+msgstr "Sortera leveranssätt efter pris"
+
+#: includes/settings-shipfunk.php:67
+msgid "Sort by Price"
+msgstr "Sortera efter pris"
+
+#: includes/settings-shipfunk.php:53
+msgid "Default Product Weight"
+msgstr "Standardproduktvikt"
+
+#: includes/settings-shipfunk.php:10
+msgid "Enable this shipping method"
+msgstr "Aktivera detta leveranssätt"
+
+#: includes/settings-shipfunk.php:9
+msgid "Enable/Disable"
+msgstr "Aktivera/inaktivera"
